@@ -28,7 +28,6 @@ function App() {
             <h3 className="slogan-1">Back to the originals with <span className='satellite'>SATELLITE STROMPPERS</span></h3>
             <p>UP TO 60% OFF on the best of three stripes.</p> <br />
             <button className='buy-now-btn'>BUY NOW</button>
-            {/* <h1 className="slogan-2">SATELLITE STROMPPERS</h1> */}
           </div>
         </div>
       </div>
@@ -36,7 +35,8 @@ function App() {
         <div className="gazelle-text">
           <h1>GAZELLE</h1>
           <p>Adidas Gazelle is a line of shoes released by Adidas in 1966. The original use of the shoe was for
-            training but then later redesigned to an indoor version for handball.</p>
+            training but then later redesigned to an indoor version for handball.</p> <br />
+            <button className='gazelle-btn'>GET YOUR GAZELLE</button>
         </div>
         <div className="image-container-2">
           <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
