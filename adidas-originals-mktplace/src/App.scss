@@ -207,6 +207,18 @@ body {
     padding: 20px;
   }
 
+  .gazelle-h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: $color-primary-2;
+  }
+
+  .gazelle-p1 {
+    font-weight: 500;
+    // font-size: 15px;
+    color: $color-primary-2;
+  }
+
   .gazelle-text {
     position: relative;
     left: 15%;
