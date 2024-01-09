@@ -50,7 +50,7 @@ main {
 
     .searchButton {
       position: relative;
-      left: 24%;
+      left: 24.5%;
       background-color: $color-primary;
       color: #fff;
       border: none;
@@ -148,6 +148,19 @@ main {
       position: relative;
       left: 66%;
       color: $color-primary-2;
+    }
+
+    .buy-now-btn {
+      position: relative;
+      left: 75%;
+      border-radius: none;
+      border: none;
+      padding: 14px 86px;
+      color: $color-primary-2;
+      background-color: $color-primary;
+      font-weight: 800;
+      font-size: 14px;
+      cursor: pointer;
     }
 
     .harold {
