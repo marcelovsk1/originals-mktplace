@@ -38,6 +38,8 @@ main {
     }
 
     .searchBar {
+      position: relative;
+      left: 25%;
       border-radius: none;
       border: none;
       padding: 10.5px 22px;
@@ -47,6 +49,8 @@ main {
     }
 
     .searchButton {
+      position: relative;
+      left: 24%;
       background-color: $color-primary;
       color: #fff;
       border: none;
