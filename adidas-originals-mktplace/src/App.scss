@@ -195,10 +195,16 @@ body {
   background-color: black;
   padding: 20px; // Adicione o padding conforme necessário para espaçamento
 
-  .gazelle {
+  .image-container-2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: end;
+  }
+
+  .gazelle {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     height: 50%;
     width: 50%;
     padding: 20px;
