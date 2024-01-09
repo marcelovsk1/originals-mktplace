@@ -10,6 +10,13 @@ main {
   flex-direction: column;
 }
 
+body {
+  max-width: 100%; /* ou um valor específico, como 1200px */
+  margin: 0 auto;  /* centraliza o conteúdo na tela */
+  overflow-x: hidden; /* impede a rolagem horizontal */
+}
+
+
 // NAV BAR
 .header-container {
   display: flex;
