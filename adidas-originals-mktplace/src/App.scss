@@ -202,12 +202,14 @@ body {
   }
 
   .gazelle {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 75%;
     padding: 20px;
+  }
+
+  .gazelle-text {
+    position: relative;
+    left: 15%;
   }
 
 }

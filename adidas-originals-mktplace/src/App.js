@@ -33,6 +33,11 @@ function App() {
         </div>
       </div>
       <div className="container-secondary">
+        <div className="gazelle-text">
+          <h1>GAZELLE</h1>
+          <p>Adidas Gazelle is a line of shoes released by Adidas in 1966. The original use of the shoe was for
+            training but then later redesigned to an indoor version for handball.</p>
+        </div>
         <div className="image-container-2">
           <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
         </div>
