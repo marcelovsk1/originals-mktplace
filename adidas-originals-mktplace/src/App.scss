@@ -140,6 +140,12 @@ main {
       font-weight: 800;
     }
 
+    p {
+      position: relative;
+      left: 66%;
+      color: $color-primary-2;
+    }
+
     .harold {
       position: relative;
       right: 10%;
