@@ -126,9 +126,11 @@ main {
 
     .slogan-1 {
       // margin-left: auto; // Empurra para a extrema direita do content-container
-      display: flex;     // Permite alinhar verticalmente os elementos filhos
-      flex-direction: column; // Alinha os elementos verticalmente
-      align-items: flex-end;  // Alinha os elementos à direita
+      // display: flex;     // Permite alinhar verticalmente os elementos filhos
+      // flex-direction: column; // Alinha os elementos verticalmente
+      // align-items: flex-end;  // Alinha os elementos à direita
+      position: relative;
+      right: 72%;
       font-size: 40px;
       font-weight: 700;
       letter-spacing: -0.5mm;
@@ -144,10 +146,12 @@ main {
     }
 
     .harold {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 43%;
+      // display: flex;
+      // align-items: center;
+      // justify-content: flex-end;
+      position: relative;
+      right: 10%;
+      height: 23%;
       width: 43%;
     }
     .harold img {
