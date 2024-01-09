@@ -182,6 +182,29 @@ body {
 
 }
 
+// CONTAINER SECONDARY
+.container-secondary {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(160, 174, 200);
+  background-color: black;
+  padding: 20px; // Adicione o padding conforme necessário para espaçamento
+
+  .gazelle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+  }
+
+}
 
 
 @keyframes App-logo-spin {

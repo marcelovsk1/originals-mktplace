@@ -32,6 +32,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="container-secondary">
+        <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
+      </div>
     </main>
   );
 }
