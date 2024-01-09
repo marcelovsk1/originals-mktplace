@@ -1,0 +1,167 @@
+@import "styles/variables.scss";
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  flex-direction: column;
+}
+
+// NAV BAR
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+
+  .menu-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    a {
+      font-weight: 500;
+      font-size: 17px;
+      text-decoration: none;
+      color: $color-primary-2;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-primary;
+        transition: all 600ms;
+      }
+    }
+
+    .searchBar {
+      border-radius: none;
+      border: none;
+      padding: 10.5px 22px;
+      background-color: $color-primary-2;
+      margin: auto;
+      font-weight: 500;
+    }
+
+    .searchButton {
+      background-color: $color-primary;
+      color: #fff;
+      border: none;
+      border-radius: none;
+      padding: 10px 5px;
+      margin-left: -40px;
+      width: 45px;
+      cursor: pointer;
+    }
+
+
+    .lupe {
+      height: 40%;
+      width: 40%;
+    }
+
+  }
+    button {
+      border-radius: none;
+      border: none;
+      padding: 12px 24px;
+      color: $color-primary-2;
+      background-color: $color-primary;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+
+      div {
+        cursor: pointer;
+      }
+
+      &:hover {
+        background-color: $color-primary-2;
+        color: $color-primary;
+        // transition: all 600ms;
+        transition: background-color 0.8s ease, color 0.8s ease;
+        animation: appear 400ms linear 100ms forwards;
+      }
+
+
+  }
+
+  .logo-pic {
+    width: 5%;
+    cursor: pointer;
+
+    &:hover {
+      width: 6%;  // Adjust the width as needed
+      transition: width 0.6s ease;  // Add a smooth transition effect
+    }
+  }
+
+}
+
+
+
+// CONTENT CONTAINER
+.content-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  background-color: rgb(160, 174, 200);
+  padding: 20px; // Adicione o padding conforme necessário para espaçamento
+
+
+    .slogans {
+    position: absolute;
+    top: 50%;       // Move para o meio da altura do content-container
+    right: 0;       // Alinha à extrema direita do content-container
+    transform: translateY(-50%);  // Centraliza verticalmente
+    padding: 50px;  // Adicione padding conforme necessário
+    }
+
+    .slogan-1 {
+      // margin-left: auto; // Empurra para a extrema direita do content-container
+      display: flex;     // Permite alinhar verticalmente os elementos filhos
+      flex-direction: column; // Alinha os elementos verticalmente
+      align-items: flex-end;  // Alinha os elementos à direita
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.5mm;
+    }
+
+    .slogan-2 {
+      display: flex;     // Permite alinhar verticalmente os elementos filhos
+      flex-direction: column; // Alinha os elementos verticalmente
+      align-items: flex-end;  // Alinha os elementos à direita
+      font-size: 60px;
+      font-weight: 800;
+      letter-spacing: -0.2mm;
+    }
+
+    .harold {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 43%;
+      width: 43%;
+    }
+    .harold img {
+      max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+      max-height: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    }
+
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} // Add a closing curly brace here
