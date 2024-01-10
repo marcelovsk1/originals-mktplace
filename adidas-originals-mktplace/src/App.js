@@ -45,6 +45,9 @@ function App() {
       <div className="samba-container">
         <div className="samba-text">
           <h1>SAMBA</h1>
+          <p className="samba-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Possimus voluptate quia quas eaque veritatis minima iusto quisquam officia,
+          repudiandae nostrum incidunt laboriosam fugit aut quo dolorem et unde nesciunt atque?</p>
         </div>
       </div>
     </main>
