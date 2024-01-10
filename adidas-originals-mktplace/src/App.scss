@@ -221,7 +221,7 @@ body {
 
   .gazelle-text {
     position: relative;
-    left: 15%;
+    left: 10%;
   }
 
   .gazelle-btn {
@@ -280,7 +280,21 @@ body {
 
   .samba-text {
     position: relative;
-    left: 75%;
+    right: 10%;
+
+  }
+
+  .samba-btn {
+    position: relative;
+    left: -1%;
+    border-radius: none;
+    border: none;
+    padding: 14px 86px;
+    color: $color-primary-2;
+    background-color: $color-primary;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
   }
 }
 
