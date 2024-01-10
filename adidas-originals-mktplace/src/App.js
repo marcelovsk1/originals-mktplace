@@ -49,6 +49,9 @@ function App() {
           Possimus voluptate quia quas eaque veritatis minima iusto quisquam officia,
           repudiandae nostrum incidunt laboriosam fugit aut quo dolorem et unde nesciunt atque?</p>
         </div>
+        <div className="image-container-samba">
+          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" alt="" />
+        </div>
       </div>
     </main>
   );
