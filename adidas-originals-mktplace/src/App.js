@@ -50,13 +50,17 @@ function App() {
           <h1 className="samba-h1">SAMBA</h1>
             <p className="samba-p1">
               The Samba's vintage roots can be traced back to 1950 when a German team donned a revolutionary shoe specifically designed for icy and snowy pitches.
-              This earlier iteration featured an outsole with three cut-out suction cups, providing players with enhanced traction and stability.</p> <br />
+              This earlier iteration featured an outsole with three cut-out suction cups, providing players with enhanced traction and stability.
+              </p> <br />
           <button className='samba-btn'>GET YOUR SAMBA</button>
         </div>
       </div>
       <div className="spezial-container">
         <div className="spezial-text">
-
+          <h1 className="spezial-h1">SPEZIAL</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis corporis perspiciatis reprehenderit,
+              quam mollitia ex modi. Harum veritatis impedit ipsa cum, sit placeat quia! Possimus pariatur repellat dolorem sit?
+            </p>
         </div>
       </div>
     </main>
