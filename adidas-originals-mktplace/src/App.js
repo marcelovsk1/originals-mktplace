@@ -42,6 +42,11 @@ function App() {
           <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
         </div>
       </div>
+      <div className="samba-container">
+        <div className="samba-text">
+          <h1>SAMBA</h1>
+        </div>
+      </div>
     </main>
   );
 }
