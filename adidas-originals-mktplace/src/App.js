@@ -42,6 +42,18 @@ function App() {
           <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
         </div>
       </div>
+      <div className="spezial-container">
+        <div className="image-container-samba">
+          <img src="https://images.asos-media.com/products/adidas-originals-handball-spezial-gum-sole-trainers-in-night-cargo-and-yellow/204869349-1-multi?$n_750w$&wid=750&hei=750&fit=crop" className="spezial" alt="" />
+        </div>
+        <div className="spezial-text">
+          <h1 className="spezial-h1">SPEZIAL</h1>
+            <p className="spezial-p1">
+            The Casuals movement in football in the 1980s led to the popularity of these shoes among players from Germany, Holland, and Scandinavia.
+            </p> <br />
+            <button className='spezial-btn'>GET YOUR SPEZIAL</button>
+        </div>
+      </div>
       <div className="samba-container">
         <div className="image-container-samba">
           <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" className="samba" alt="" />
@@ -53,18 +65,6 @@ function App() {
               This earlier iteration featured an outsole with three cut-out suction cups, providing players with enhanced traction and stability.
               </p> <br />
           <button className='samba-btn'>GET YOUR SAMBA</button>
-        </div>
-      </div>
-      <div className="spezial-container">
-        <div className="spezial-text">
-          <h1 className="spezial-h1">SPEZIAL</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis corporis perspiciatis reprehenderit,
-              quam mollitia ex modi. Harum veritatis impedit ipsa cum, sit placeat quia! Possimus pariatur repellat dolorem sit?
-            </p>
-            <button className='spezial-btn'>GET YOUR SPEZIAL</button>
-        </div>
-        <div className="image-container-samba">
-          <img src="https://media.gq.com/photos/64f9eb0a539968b407f26783/master/pass/adidas-handball.jpg" className="spezial" alt="" />
         </div>
       </div>
     </main>

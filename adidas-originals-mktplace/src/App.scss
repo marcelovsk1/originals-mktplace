@@ -266,14 +266,14 @@ body {
    .samba-h1 {
     font-weight: 800;
     font-size: 40px;
-    color: $color-primary-2;
+    color: black;
 
   }
 
   .samba-p1 {
     font-weight: 500;
     // font-size: 15px;
-    color: $color-primary-2;
+    color: black;
   }
 
   .samba-text {
@@ -285,6 +285,70 @@ body {
   .samba-btn {
     position: relative;
     right: 0%;
+    border-radius: none;
+    border: none;
+    padding: 14px 86px;
+    color: $color-primary-2;
+    background-color: $color-primary;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+// SPEZIAL CONTAINER
+.spezial-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(160, 174, 200);
+  background-color: rgb(28, 160, 114);
+  padding: 20px; // Adicione o padding conforme necessário para espaçamento
+
+  .image-container-spezial {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    // padding-left: 60px;
+  }
+
+   .spezial {
+    width: 70%;
+    height: 70%;
+    padding: 20px;
+    position: relative;
+    left: 19%;
+   }
+
+   .spezial-h1 {
+    position: relative;
+    right: 8%;
+    font-weight: 800;
+    font-size: 40px;
+    color: $color-primary-2;
+  }
+
+  .spezial-p1 {
+    position: relative;
+    right: 8%;
+    font-weight: 500;
+    // font-size: 15px;
+    color: $color-primary-2;
+    padding-right: 20px;
+  }
+
+  .spezial-text {
+    position: relative;
+    left: 2%;
+  }
+
+  .spezial-btn {
+    position: relative;
+    right: 8%;
     border-radius: none;
     border: none;
     padding: 14px 86px;
