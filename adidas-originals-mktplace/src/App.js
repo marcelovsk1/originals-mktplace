@@ -38,7 +38,7 @@ function App() {
             training but then later redesigned to an indoor version for handball.</p> <br />
             <button className='gazelle-btn'>GET YOUR GAZELLE</button>
         </div>
-        <div className="image-container-2">
+        <div className="image-container-gazelle">
           <img src="https://d350eqwdajv7qp.cloudfront.net/v2/posts/5035/illustration.jpg" className="gazelle" alt="" />
         </div>
       </div>
