@@ -252,9 +252,15 @@ body {
   background-color: rgb(242, 182, 137);
   padding: 20px; // Adicione o padding conforme necessário para espaçamento
 
+  .image-container-samba {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
    .samba {
-    width: 80%;
-    height: 80%;
+    width: 78%;
+    height: 100%;
     padding: 20px;
    }
 }
