@@ -55,9 +55,6 @@ function App() {
         </div>
       </div>
       <div className="samba-container">
-        <div className="image-container-samba">
-          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" className="samba" alt="" />
-        </div>
         <div className="samba-text">
           <h1 className="samba-h1">SAMBA</h1>
             <p className="samba-p1">
@@ -65,6 +62,9 @@ function App() {
               This earlier iteration featured an outsole with three cut-out suction cups, providing players with enhanced traction and stability.
               </p> <br />
           <button className='samba-btn'>GET YOUR SAMBA</button>
+        </div>
+        <div className="image-container-samba">
+          <img src="https://sneakernews.com/wp-content/uploads/2022/11/adidas-Sponsored-Nov-2022-Samba-Lead.jpg" className="samba" alt="" />
         </div>
       </div>
     </main>
