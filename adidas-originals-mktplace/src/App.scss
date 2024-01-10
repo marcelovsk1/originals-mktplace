@@ -240,7 +240,24 @@ body {
 }
 
 // SAMBA CONTAINER
+.samba-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(160, 174, 200);
+  background-color: rgb(242, 182, 137);
+  padding: 20px; // Adicione o padding conforme necessário para espaçamento
 
+   .samba {
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+   }
+}
 
 @keyframes App-logo-spin {
   from {

@@ -50,7 +50,7 @@ function App() {
           repudiandae nostrum incidunt laboriosam fugit aut quo dolorem et unde nesciunt atque?</p>
         </div>
         <div className="image-container-samba">
-          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" alt="" />
+          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" className="samba" alt="" />
         </div>
       </div>
     </main>
