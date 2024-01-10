@@ -262,7 +262,26 @@ body {
     width: 78%;
     height: 100%;
     padding: 20px;
+    margin-right: auto;
    }
+
+   .samba-h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: $color-primary-2;
+
+  }
+
+  .samba-p1 {
+    font-weight: 500;
+    // font-size: 15px;
+    color: $color-primary-2;
+  }
+
+  .samba-text {
+    position: relative;
+    left: 75%;
+  }
 }
 
 @keyframes App-logo-spin {

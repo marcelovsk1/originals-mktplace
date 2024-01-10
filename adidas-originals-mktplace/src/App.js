@@ -43,14 +43,14 @@ function App() {
         </div>
       </div>
       <div className="samba-container">
+        <div className="image-container-samba">
+          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" className="samba" alt="" />
+        </div>
         <div className="samba-text">
-          <h1>SAMBA</h1>
+          <h1 className="samba-h1">SAMBA</h1>
           <p className="samba-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           Possimus voluptate quia quas eaque veritatis minima iusto quisquam officia,
           repudiandae nostrum incidunt laboriosam fugit aut quo dolorem et unde nesciunt atque?</p>
-        </div>
-        <div className="image-container-samba">
-          <img src="https://media.gq-magazine.co.uk/photos/63e630d5ce7e76883c046663/16:9/w_2560%2Cc_limit/HEADER-velosamba.jpg" className="samba" alt="" />
         </div>
       </div>
     </main>
