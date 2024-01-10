@@ -324,7 +324,7 @@ body {
     position: relative;
     left: 20%;
     width: 80%;
-    height: 100%;
+    height: 80%;
     padding: 20px;
     margin-right: auto;
    }
@@ -340,6 +340,8 @@ body {
     font-weight: 500;
     // font-size: 15px;
     color: $color-primary-3;
+    padding-right: 50px;
+    line-break: auto;
   }
 
   .samba-text {

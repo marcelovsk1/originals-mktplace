@@ -58,13 +58,12 @@ function App() {
         <div className="samba-text">
           <h1 className="samba-h1">SAMBA</h1>
             <p className="samba-p1">
-              The Samba's vintage roots can be traced back to 1950 when a German team donned a revolutionary shoe specifically designed for icy and snowy pitches.
-              This earlier iteration featured an outsole with three cut-out suction cups, providing players with enhanced traction and stability.
+            The Samba, a pioneering shoe designed for icy and snowy pitches, originated in 1950 with a German team wearing an outsole with three suction cups.
               </p> <br />
           <button className='samba-btn'>GET YOUR SAMBA</button>
         </div>
         <div className="image-container-samba">
-          <img src="https://sneakernews.com/wp-content/uploads/2022/11/adidas-Sponsored-Nov-2022-Samba-Lead.jpg" className="samba" alt="" />
+          <img src="https://www.asphaltgold.com/cdn/shop/files/405de462e2a40568bf55de9eccaaeacec6cd3872_adidas_terrace_sm_4_768x768_crop_center.jpg?v=1700468162" className="samba" alt="" />
         </div>
       </div>
     </main>
