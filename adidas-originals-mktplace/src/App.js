@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container-secondary">
+      <div className="container-gazelle">
         <div className="gazelle-text">
           <h1 className="gazelle-h1">GAZELLE</h1>
           <p className="gazelle-p1">Adidas Gazelle is a line of shoes released by Adidas in 1966. The original use of the shoe was for
