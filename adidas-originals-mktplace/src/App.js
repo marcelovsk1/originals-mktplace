@@ -61,6 +61,10 @@ function App() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis corporis perspiciatis reprehenderit,
               quam mollitia ex modi. Harum veritatis impedit ipsa cum, sit placeat quia! Possimus pariatur repellat dolorem sit?
             </p>
+            <button className='spezial-btn'>GET YOUR SPEZIAL</button>
+        </div>
+        <div className="image-container-samba">
+          <img src="https://media.gq.com/photos/64f9eb0a539968b407f26783/master/pass/adidas-handball.jpg" className="spezial" alt="" />
         </div>
       </div>
     </main>
