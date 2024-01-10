@@ -237,65 +237,6 @@ body {
 
 }
 
-// SAMBA CONTAINER
-.samba-container {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  // background-color: rgb(160, 174, 200);
-  background-color: rgb(242, 182, 137);
-  padding: 20px; // Adicione o padding conforme necessário para espaçamento
-
-  .image-container-samba {
-    display: flex;
-    justify-content: flex-start;
-    align-items: start;
-  }
-
-   .samba {
-    width: 78%;
-    height: 100%;
-    padding: 20px;
-    margin-right: auto;
-   }
-
-   .samba-h1 {
-    font-weight: 800;
-    font-size: 40px;
-    color: black;
-
-  }
-
-  .samba-p1 {
-    font-weight: 500;
-    // font-size: 15px;
-    color: black;
-  }
-
-  .samba-text {
-    position: relative;
-    right: 7%;
-
-  }
-
-  .samba-btn {
-    position: relative;
-    right: 0%;
-    border-radius: none;
-    border: none;
-    padding: 14px 86px;
-    color: $color-primary-2;
-    background-color: $color-primary;
-    font-weight: 800;
-    font-size: 14px;
-    cursor: pointer;
-  }
-}
-
 // SPEZIAL CONTAINER
 .spezial-container {
   position: relative;
@@ -359,6 +300,71 @@ body {
     cursor: pointer;
   }
 }
+
+// SAMBA CONTAINER
+.samba-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(160, 174, 200);
+  background-color: $color-primary-2;
+  padding: 20px; // Adicione o padding conforme necessário para espaçamento
+
+  .image-container-samba {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+   .samba {
+    position: relative;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    margin-right: auto;
+   }
+
+   .samba-h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: black;
+
+  }
+
+  .samba-p1 {
+    font-weight: 500;
+    // font-size: 15px;
+    color: black;
+  }
+
+  .samba-text {
+    // display: flex;
+    // justify-content: start;
+    // align-items: start;
+    position: relative;
+    left: 10%;
+
+  }
+
+  .samba-btn {
+    position: relative;
+    right: 0%;
+    border-radius: none;
+    border: none;
+    padding: 14px 86px;
+    color: $color-primary-2;
+    background-color: $color-primary;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {
